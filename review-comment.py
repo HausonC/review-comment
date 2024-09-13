@@ -25,3 +25,11 @@ for d in data:
 		print(sum_len)
 
 print('the avg lenth of comment', sum_len/len(data))
+
+new = []
+for d in data:
+	if len(d) < 100:
+		new.append(d)
+print('total', len(new), 'data whose lengths are less than 100')
+print(new[0])
+print(new[1])
