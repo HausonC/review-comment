@@ -33,3 +33,11 @@ for d in data:
 print('total', len(new), 'data whose lengths are less than 100')
 print(new[0])
 print(new[1])
+
+good = []
+for d in data:
+	if 'good' in d:
+		good.append(d)
+print('total', len(good), 'data with GOOD comment')
+print(good[0])
+print(good[1])
